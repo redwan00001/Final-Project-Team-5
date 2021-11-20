@@ -13,6 +13,7 @@
     <module>HBO</module>
     <module>Walmart</module>
     <module>Generic</module>
+      <module>RestApi</module>
   </modules>
 
   <name>Final-Project-Team-5.0</name>
