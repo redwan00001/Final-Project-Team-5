@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Walmart" />
         <module name="HBO" />
+        <module name="RestApi" />
         <module name="Facebook" />
         <module name="Generic" />
       </profile>
