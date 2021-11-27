@@ -13,10 +13,25 @@
     <test name = "smoke testing Walmart search">
         <classes>
 
-            <class name="pages.HomePage"/>
-            <class name="loginpage.HomeTest">
+<!--            <class name="pages.HomePage"/>-->
+<!--            <class name="test.HomeTest">-->
 
+<!--            </class>-->
+<!--            <class name="pages.PharmacyPage"/>-->
+<!--            <class name="test.PharmacyTest">-->
+<!--            </class>-->
+
+<!--            <class name="pages.LoginPage"/>-->
+<!--            <class name="test.LoginTest">-->
+<!--            </class>-->
+
+            <class name="pages.WalmartHelp"/>
+            <class name="test.WalmartHelpTest">
             </class>
+
+<!--            <class name="pages.MenuPage"/>-->
+<!--            <class name="test.MenuPageTest">-->
+<!--            </class>-->
 
         </classes>
     </test>
