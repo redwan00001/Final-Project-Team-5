@@ -63,13 +63,15 @@ public class LoginPage extends CommonAPI {
     public WebElement getEnterSignIn() {
         return enterSignIn;
     }
-    public void signInAccount() {clickOn(getSignInAccount());
+
+
+    public void clickOnSignInAccount() {
     }
-    public void signIn() {clickOn((getSignIn()));
+    public void clickOnSignIn() {
     }
-    public void createAnAccount() {clickOn(getCreateAnAccount());
+    public void clickOnCreateAnAccount() {
     }
-    public void purchaseHistory() {clickOn(getPurchaseHistory());
+    public void clickOnPurchaseHistory() {
     }
     public void setEmail(WebElement email) {
         this.email = email;
@@ -87,9 +89,9 @@ public class LoginPage extends CommonAPI {
         }.getClass().getEnclosingMethod().getName()));
         getPassword().sendKeys("abc123");
     }
-    public void forgotPassword() {clickOn(getForgotPassword());
+    public void clickOnForgotPassword() {
     }
-    public void showPassword() {clickOn(getShowPassword());
+    public void clickOnShowPassword() {
     }
     public void enterSignIn(WebElement enterSignIn) {
         this.enterSignIn = enterSignIn;

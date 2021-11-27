@@ -67,13 +67,13 @@ public class HomePage extends CommonAPI {
     @FindBy (xpath = "//*[@id=\"maincontent\"]/div/div[2]/div/div[1]/div/div/article/section/div/header/a")
     WebElement viewAll;
 
-    @FindBy (xpath = "//*[@id=\"maincontent\"]/div/div[2]/div/div[1]/div/div/article/section/div/div/div[2]/a/img")
+    @FindBy (xpath = "//a[@class='f6 no-underline mid-gray db pv2 underline-hover'][normalize-space()='Auto Care Center']")
     WebElement autoCareCenter;
 
     @FindBy (xpath = "//*[@id=\"maincontent\"]/div/div/div/div/section/div[2]/div[2]/div/div[1]/h2/a")
     WebElement healthServices;
 
-    @FindBy (xpath = "//*[@id=\"__next\"]/div[1]/div/div/div/div/main/div/div/div/div/div[2]/section/div/div[1]/a/img")
+    @FindBy (xpath = "//div[2]//section[1]//div[1]//div[1]//a[1]//img[1]")
     WebElement tires;
 
     @FindBy (xpath = "//*[@id=\"__next\"]/div[1]/div/div/div/div/main/div/div/div/div/div[2]/section/div/div[2]/a/img")
@@ -88,7 +88,17 @@ public class HomePage extends CommonAPI {
     @FindBy (xpath = "//*[@id=\"__next\"]/div[1]/div/div/div/div/main/div/div[2]/div/div/section[2]/div[1]/ul/li[3]/button")
     WebElement shopByBrand;
 
+    @FindBy (xpath = "//button[normalize-space()='All Tires']")
+    WebElement allTires;
 
+    @FindBy (xpath = "//button[normalize-space()='Shop by Size']")
+    WebElement shopBySizeTires;
+
+    @FindBy (xpath = "//span[normalize-space()='In-store']")
+    WebElement inStore;
+
+    @FindBy (xpath = "//button[normalize-space()='Where to find vehicle information']")
+    WebElement findVehicleInfo;
 
 //    @FindBy (xpath = "")
 //    WebElement ;
@@ -104,18 +114,6 @@ public class HomePage extends CommonAPI {
 //
 //    @FindBy (xpath = "")
 //    WebElement ;
-//
-//    @FindBy (xpath = "")
-//    WebElement ;
-//
-//    @FindBy (xpath = "")
-//    WebElement ;
-//
-//    @FindBy (xpath = "")
-//    WebElement ;
-//
-//    @FindBy (xpath = "")
-//    WebElement ;
 //    @FindBy (xpath = "")
 //    WebElement ;
 //
@@ -145,30 +143,6 @@ public class HomePage extends CommonAPI {
 //    @FindBy (xpath = "")
 //    WebElement ;
 //
-//    @FindBy (xpath = "")
-//    WebElement ;
-//
-//    @FindBy (xpath = "")
-//    WebElement ;
-//
-//    @FindBy (xpath = "")
-//    WebElement ;
-//
-//    @FindBy (xpath = "")
-//    WebElement ;
-//
-//    @FindBy (xpath = "")
-//    WebElement ;
-//
-//    @FindBy (xpath = "")
-//    WebElement ;
-//
-//    @FindBy (xpath = "")
-//    WebElement ;
-//
-//    @FindBy (xpath = "")
-//    WebElement ;
-
 
 
 
@@ -250,75 +224,18 @@ public class HomePage extends CommonAPI {
     public WebElement getShopByBrand() {
      return shopByBrand;
     }
-//    public WebElement get() {
-//        return ;
-//    }
-//    public WebElement get() {
-//        return ;
-//    }
-//    public WebElement get() {
-//        return ;
-//    }
-//    public WebElement get() {
-//        return ;
-//    }
-//    public WebElement get() {
-//        return ;
-//    }
-//    public WebElement get() {
-//        return ;
-//    }
-//    public WebElement get() {
-//        return ;
-//    }
-//    public WebElement get() {
-//        return ;
-//    }
-//    public WebElement get() {
-//        return ;
-//    }
-//    public WebElement get() {
-//        return ;
-//    }
-//    public WebElement get() {
-//        return ;
-//    }
-//    public WebElement get() {
-//        return ;
-//    }
-//    public WebElement get() {
-//        return ;
-//    }
-//    public WebElement get() {
-//        return ;
-//    }
-//    public WebElement get() {
-//        return ;
-//    }
-//    public WebElement get() {
-//        return ;
-//    }
-//    public WebElement get() {
-//        return ;
-//    }
-//    public WebElement get() {
-//        return ;
-//    }
-//    public WebElement get() {
-//        return ;
-//    }
-//    public WebElement get() {
-//        return ;
-//    }
-//    public WebElement get() {
-//        return ;
-//    }
-//    public WebElement get() {
-//        return ;
-//    }
-
-
-
+    public WebElement getAllTires() {
+        return allTires;
+    }
+    public WebElement getShopBySizeTires() {
+        return shopBySizeTires;
+    }
+    public WebElement getInStore() {
+        return inStore;
+    }
+    public WebElement getFindVehicleInfo() {
+        return findVehicleInfo;
+    }
 
 
 
@@ -372,62 +289,15 @@ public class HomePage extends CommonAPI {
     }
     public void clickOnShopByBrand() {
     }
-
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-//    public void clickOn() {
-//    }
-
-
     public void hoverOverDepartment() {
+    }
+    public void clickOnAllTires(){
+    }
+    public void clickOnShopBySizeTires(){
+    }
+    public void clickOnInStore(){
+    }
+    public void clickOnFindVehicleInfo(){
     }
 }
 

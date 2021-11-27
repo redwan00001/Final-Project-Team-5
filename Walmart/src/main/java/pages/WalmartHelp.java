@@ -7,13 +7,16 @@ import org.openqa.selenium.support.FindBy;
 
 public class WalmartHelp extends CommonAPI {
 
+    @FindBy(xpath = "/html/body/div[3]/div/div[3]/div[1]/div/div[1]/button/i")
+    WebElement cancelPopUp;
+
     @FindBy(xpath = "//a[normalize-space()='Help']")
     WebElement help;
 
-    @FindBy(xpath = "//p[normalize-space()='Track Your Order']")
+    @FindBy(xpath = "//*[@id=\"__next\"]/div[1]/div/div/div/div/section/div[2]/section/ul/li[1]/a/div/div/p")
     WebElement trackOrder;
 
-    @FindBy(xpath = "//a[normalize-space()='Your order']")
+    @FindBy(xpath = "//*[@id=\"__next\"]/div[1]/div/div/div/div/section/div[3]/div[2]/section/div/article/div/p[2]/a")
     WebElement yourOrder;
 
     @FindBy(xpath = "//a[@class='no-underline pointer f6 white mr4'][normalize-space()='All Departments']")
@@ -123,9 +126,11 @@ public class WalmartHelp extends CommonAPI {
 
 
 
+    public WebElement getCancelPopUp() { return cancelPopUp; }
     public WebElement getHelp() {
         return help;
     }
+
     public WebElement getTrackOrder() {
         return trackOrder;
     }
@@ -238,31 +243,43 @@ public class WalmartHelp extends CommonAPI {
 
 
 
+    public void clickOnCancelPopUp(){
+        clickOn(getCancelPopUp());
+    }
     public void clickOnHelp() {
+        clickOn(getHelp());
     }
     public void clickOnTrackOrder() {
+        clickOn(getTrackOrder());
     }
     public void clickOnYourOrder(){
-
+        clickOn(getYourOrder());
     }
     public void clickOnAllDepartment() {
+        clickOn(getAllDepartment());
     }
-    public void clickOnDepartment(){
+    public void hoverOverDepartment(){
 
     }
     public void clickOnWomenDepartment() {
+        clickOn(getWomenDepartment());
     }
-    public void GetTShirts() { clickOn(getGetTShirts());
+    public void getTShirts() {
+        clickOn(getGetTShirts());
     }
     public void clickOnLeggings() {
+        clickOn(getLeggings());
     }
-    public void clickOnServices() {
+    public void hoverOverServices() {
     }
     public void clickOnRegistry() {
+        clickOn(getRegistry());
     }
     public void clickOnBabyRegistry() {
+        clickOn(getBabyRegistry());
     }
     public void clickOnRegistryChecklist() {
+        clickOn(getRegistryChecklist());
     }
     public void clickOnCreateRegistry() {
     }

@@ -7,277 +7,277 @@ import pages.MenuPage;
 
 public class MenuPageTest extends CommonAPI {
     @Test
-    public void test33() throws InterruptedException {
+    public void Oil1() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getAutocare();
         menuPage.getAutocareServiceCenter();
         menuPage.getOil();
         waitFor(1);
     }
     @Test
-    public void test34() throws InterruptedException {
+    public void ShopNewCar2() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getAutocare();
         menuPage.getAutoBuying();
         menuPage.getShopNewCar();
         waitFor(2);
     }
     @Test
-    public void test35() throws InterruptedException {
+    public void ShopUsedCars3() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getAutocare();
         menuPage.getAutoBuying();
         menuPage.getShopUsedCars();
         waitFor(2);
     }
     @Test
-    public void test36() throws InterruptedException {
+    public void SellYourCar4() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getAutocare();
         menuPage.getAutoBuying();
         menuPage.getSellYourCar();
         waitFor(2);
     }
     @Test
-    public void test37() throws InterruptedException {
+    public void AutoCareServiceCenter5() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getAutocare();
         menuPage.getAutocareServiceCenter();
         waitFor(2);
     }
     @Test
-    public void test38() throws InterruptedException {
+    public void WellnessHub6() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         waitFor(1);
     }
     @Test
-    public void test39() throws InterruptedException {
+    public void FluShot7() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         menuPage.getFluShot();
         waitFor(2);
     }
     @Test
-    public void test40() throws InterruptedException {
+    public void HighFiberFood8() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
-        menuPage.getHeighFiberFood();
+        menuPage.getHighFiberFood();
         waitFor(2);
     }
     @Test
-    public void test41() throws InterruptedException {
+    public void FaceMask9() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         menuPage.getFaceMask();
         waitFor(2);
     }
     @Test
-    public void test42() throws InterruptedException {
+    public void HealthBrands10() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         menuPage.getHealthBrands();
         waitFor(2);
     }
     @Test
-    public void test43() throws InterruptedException {
+    public void EatBetter11() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         menuPage.getEatBetter();
         waitFor(2);
     }
     @Test
-    public void test44() throws InterruptedException {
+    public void ManageWeight12() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         menuPage.getManageWeight();
         waitFor(2);
     }
     @Test
-    public void test45() throws InterruptedException {
+    public void VisionCenter13() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         menuPage.getVisionCenter();
         waitFor(2);
     }
     @Test
-    public void test46() throws InterruptedException {
+    public void ProteinPowders14() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         menuPage.getProteinPowders();
         waitFor(2);
     }
     @Test
-    public void test47() throws InterruptedException {
+    public void ProteinShakes15() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         menuPage.getProteinShakes();
         waitFor(2);
     }
     @Test
-    public void test48() throws InterruptedException {
+    public void ProteinBars16() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         menuPage.getProteinBars();
         waitFor(2);
     }
     @Test
-    public void test49() throws InterruptedException {
+    public void Multivitamins17() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         menuPage.getMultivitamins();
         waitFor(2);
     }
     @Test
-    public void test50() throws InterruptedException {
+    public void DietSnacks18() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         menuPage.getDietSnacks();
         waitFor(2);
     }
     @Test
-    public void test51() throws InterruptedException {
+    public void BeautySupplements19() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         menuPage.getBeautySupplements();
         waitFor(2);
     }
     @Test
-    public void test52() throws InterruptedException {
+    public void SleepSupplements20() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         menuPage.getSleepSupplements();
         waitFor(2);
     }
     @Test
-    public void test53() throws InterruptedException {
+    public void PainRelievers21() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         menuPage.getPainRelievers();
         waitFor(2);
     }
     @Test
-    public void test54() throws InterruptedException {
+    public void QuitSmoking22() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         menuPage.getQuitSmoking();
         waitFor(2);
     }
     @Test
-    public void test55() throws InterruptedException {
+    public void AllergyMedicine23() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
-        menuPage.getAllergyMedison();
+        menuPage.getAllergyMedicine();
         waitFor(2);
     }
     @Test
-    public void test56() throws InterruptedException {
+    public void HeatingPads24() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         menuPage.getHeatingPads();
         waitFor(2);
     }
     @Test
-    public void test57() throws InterruptedException {
+    public void FootSpas25() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         menuPage.getFootSpas();
         waitFor(2);
     }
     @Test
-    public void test58() throws InterruptedException {
+    public void EssentialOils26() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         menuPage.getEssentialOils();
         waitFor(2);
     }
     @Test
-    public void test59() throws InterruptedException {
+    public void MindfulBeauty27() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         menuPage.getMindfulBeauty();
         waitFor(2);
     }
     @Test
-    public void test60() throws InterruptedException {
+    public void SkinCareTools28() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         menuPage.getSkinCareTools();
         waitFor(2);
     }
     @Test
-    public void test61() throws InterruptedException {
+    public void NoSugarFood29() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
-        menuPage.getNoSugerFood();
+        menuPage.getNoSugarFood();
         waitFor(2);
     }
     @Test
-    public void test62() throws InterruptedException {
+    public void LowCalorieFood30() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
-        menuPage.getLoWCalorieFood();
+        menuPage.getLowCalorieFood();
         waitFor(2);
     }
     @Test
-    public void test63() throws InterruptedException {
+    public void LowSodiumFoods31() throws InterruptedException {
         MenuPage menuPage = PageFactory.initElements(driver, MenuPage.class);
-        menuPage.getServices();
+        menuPage.hoverOverServices();
         menuPage.getHealthService();
         menuPage.getWellnessHub();
         menuPage.getLowSodiumFoods();

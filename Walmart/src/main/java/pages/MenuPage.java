@@ -61,7 +61,7 @@ public class MenuPage extends CommonAPI {
     @FindBy(xpath = "//span[normalize-space()='Quit Smoking']")
     WebElement quitSmoking;
     @FindBy(xpath = "//span[normalize-space()='Allergy']")
-    WebElement allergyMedison;
+    WebElement allergyMedicine;
     @FindBy(xpath = "//span[normalize-space()='Heating Pads']")
     WebElement heatingPads;
     @FindBy(xpath = "//span[normalize-space()='Foot Spas']")
@@ -73,11 +73,11 @@ public class MenuPage extends CommonAPI {
     @FindBy(xpath = "//span[normalize-space()='Skin Care Tools']")
     WebElement skinCareTools;
     @FindBy(xpath = "//span[normalize-space()='High Fiber Foods']")
-    WebElement heighFiberFood;
+    WebElement highFiberFood;
     @FindBy(xpath = "//span[normalize-space()='No Sugar Foods']")
-    WebElement noSugerFood;
+    WebElement noSugarFood;
     @FindBy(xpath = "//span[normalize-space()='Low Calorie Foods']")
-    WebElement loWCalorieFood;
+    WebElement lowCalorieFood;
     @FindBy(xpath = "//span[normalize-space()='Low Sodium Foods']")
     WebElement lowSodiumFoods;
 
@@ -108,18 +108,18 @@ public class MenuPage extends CommonAPI {
     public WebElement getSleepSupplements() { return sleepSupplements; }
     public WebElement getPainRelievers() { return painRelievers; }
     public WebElement getQuitSmoking() { return quitSmoking; }
-    public WebElement getAllergyMedison() { return allergyMedison; }
+    public WebElement getAllergyMedicine() { return allergyMedicine; }
     public WebElement getHeatingPads() { return heatingPads; }
     public WebElement getFootSpas() { return footSpas; }
     public WebElement getEssentialOils() { return essentialOils; }
     public WebElement getMindfulBeauty() { return mindfulBeauty; }
     public WebElement getSkinCareTools() { return skinCareTools; }
-    public WebElement getHeighFiberFood() { return heighFiberFood; }
-    public WebElement getNoSugerFood() {return noSugerFood; }
-    public WebElement getLoWCalorieFood() { return loWCalorieFood; }
+    public WebElement getHighFiberFood() { return highFiberFood; }
+    public WebElement getNoSugarFood() {return noSugarFood; }
+    public WebElement getLowCalorieFood() { return lowCalorieFood; }
     public WebElement getLowSodiumFoods() { return lowSodiumFoods;}
 
-    public void Services() { clickOn(getServices());}
+    public void hoverOverServices() { }
     public void Autocare() {clickOn(getAutocare());}
     public void AutoCareServiceCenter() { clickOn(getAutocareServiceCenter());}
     public void Oil() { clickOn(getOil());}
@@ -146,15 +146,15 @@ public class MenuPage extends CommonAPI {
     public void SleepSupplements() { clickOn(getSleepSupplements());}
     public void PainRelievers() { clickOn(getPainRelievers());}
     public void QuitSmoking() { clickOn(getQuitSmoking());}
-    public void Allergy() { clickOn(getAllergyMedison());}
+    public void Allergy() { clickOn(getAllergyMedicine());}
     public void HeatingPads() { clickOn(getHeatingPads());}
     public void FootSpas() { clickOn(getFootSpas());}
     public void EssentialOils() { clickOn(getEssentialOils());}
     public void MindfulBeauty() { clickOn(getMindfulBeauty());}
     public void SkinCareTools() { clickOn(getSkinCareTools());}
-    public void HeighFiberFood() {clickOn(getHeighFiberFood());}
-    public void NosugerFood() { clickOn(getNoSugerFood());}
-    public void LowCaloriesFood() { clickOn(getLoWCalorieFood());}
+    public void HighFiberFood() {clickOn(getHighFiberFood());}
+    public void NosugarFood() { clickOn(getNoSugarFood());}
+    public void LowCaloriesFood() { clickOn(getLowCalorieFood());}
     public void LowSodiumFood() { clickOn(getLowSodiumFoods());}
 
 

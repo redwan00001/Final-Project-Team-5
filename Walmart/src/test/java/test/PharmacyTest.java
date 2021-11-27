@@ -12,7 +12,7 @@ public class PharmacyTest extends CommonAPI {
         homePage.clickOnViewAll();
         homePage.clickOnPharmacy();
         homePage.clickOnFluShot();
-        homePage.getScheduleNowFluShot();
+        homePage.clickOnScheduleNowFluShot();
     }
 
     @Test
@@ -30,7 +30,7 @@ public class PharmacyTest extends CommonAPI {
         homePage.clickOnViewAll();
         homePage.clickOnPharmacy();
         homePage.clickOnDiabetesCare();
-        homePage.getDiabetesCareShopNow();
+        homePage.clickOnDiabetesCareShopNow();
     }
 
     @Test
@@ -82,34 +82,7 @@ public class PharmacyTest extends CommonAPI {
         homePage.clickOnWalmartHealthZipCode();
 
     }
-//    //@Test
-//    public void verifyWalmartHealth9() throws InterruptedException {
-//        PharmacyPage homePage = PageFactory.initElements(driver, PharmacyPage.class);
-//        homePage.clickOnViewAll();
-//        homePage.clickOnPharmacy();
-//
-//    }
-//    //@Test
-//    public void verifyWalmartHealth() throws InterruptedException {
-//        PharmacyPage homePage = PageFactory.initElements(driver, PharmacyPage.class);
-//        homePage.clickOnViewAll();
-//        homePage.clickOnPharmacy();
-//
-//    }
-//    //@Test
-//    public void verifyWalmartHealth() throws InterruptedException {
-//        PharmacyPage homePage = PageFactory.initElements(driver, PharmacyPage.class);
-//        homePage.clickOnViewAll();
-//        homePage.clickOnPharmacy();
-//
-//    }
-//    //@Test
-//    public void verifyWalmartHealth() throws InterruptedException {
-//        PharmacyPage homePage = PageFactory.initElements(driver, PharmacyPage.class);
-//        homePage.clickOnViewAll();
-//        homePage.clickOnPharmacy();
-//
-//    }
+
 
 
 }

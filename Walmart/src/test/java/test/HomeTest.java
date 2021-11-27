@@ -237,6 +237,84 @@ public class HomeTest extends CommonAPI {
         homePage.clickOnShorts();
         waitFor(1);
     }
+    @Test
+    public void AllTires19() throws InterruptedException {
+        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage.clickOnViewAll();
+        homePage.clickOnAutoCareCenter();
+        homePage.clickOnTires();
+        homePage.clickOnAllTires();
+    }
+    @Test
+    public void AllSeasonTires20() throws InterruptedException {
+        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage.clickOnViewAll();
+        homePage.clickOnAutoCareCenter();
+        homePage.clickOnTires();
+        homePage.clickOnAllSeasonTires();
+    }
+    @Test
+    public void ShopByBrand21() throws InterruptedException {
+        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage.clickOnViewAll();
+        homePage.clickOnAutoCareCenter();
+        homePage.clickOnTires();
+        homePage.clickOnShopByBrand();
+    }
+    @Test
+    public void ShopBySizeTires22() throws InterruptedException {
+        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage.clickOnViewAll();
+        homePage.clickOnAutoCareCenter();
+        homePage.clickOnTires();
+        homePage.clickOnShopBySizeTires();
+    }
+    @Test
+    public void InStore23() throws InterruptedException {
+        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage.clickOnViewAll();
+        homePage.clickOnAutoCareCenter();
+        homePage.clickOnTires();
+        homePage.clickOnInStore();
+    }
+    @Test
+    public void Oil24() throws InterruptedException {
+        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage.clickOnViewAll();
+        homePage.clickOnAutoCareCenter();
+        homePage.clickOnOilAndFluids();
+    }
+    @Test
+    public void FindVehicleInfo25() throws InterruptedException {
+        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage.clickOnViewAll();
+        homePage.clickOnAutoCareCenter();
+        homePage.clickOnOilAndFluids();
+        homePage.clickOnFindVehicleInfo();
+    }
+    @Test
+    public void CarBatteries26() throws InterruptedException {
+        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage.clickOnViewAll();
+        homePage.clickOnAutoCareCenter();
+        homePage.clickOnCarBatteries();
+    }
+    @Test
+    public void verifyBoy27() throws InterruptedException {
+        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage.hoverOverDepartment();
+        homePage.clickOnAllDepartment();
+        homePage.clickOnBoys();
+    }
+    @Test
+    public void verifyGirl28() throws InterruptedException {
+        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage.hoverOverDepartment();
+        homePage.clickOnAllDepartment();
+        homePage.clickOnGirls();
+    }
+
+
 
 
 }
