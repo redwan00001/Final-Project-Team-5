@@ -19,6 +19,8 @@ import org.testng.annotations.*;
 import reporting.ExtentManager;
 import reporting.ExtentTestManager;
 
+import java.awt.*;
+import java.awt.event.InputEvent;
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -212,6 +214,22 @@ public class CommonAPI {
         }
 
     }
+//    public static void main(String[] args) {
+//
+//        public void pressAndHold()
+//            try {
+//                while (true) {
+//                    Robot r = new Robot();
+//                    int button = InputEvent.BUTTON1_DOWN_MASK;
+//                    r.mousePress(button);
+//                    Thread.sleep(400);
+//                    r.mouseRelease(button);
+//                }
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//            }
+//        }
+//    }
     public void waitFor(int seconds){
         try {
             Thread.sleep(seconds * 1000);
@@ -228,6 +246,10 @@ public class CommonAPI {
     public void hoverOver(WebDriver driver, WebElement element){
         Actions action = new Actions(driver);
         action.moveToElement(element).build().perform();
+    }
+    public void pressAndHold(WebDriver driver, WebElement element){
+        Actions action = new Actions(driver);
+        action.clickAndHold(element).build().perform();
     }
     public void scrollToView(WebElement element, WebDriver driver){
         JavascriptExecutor js = ((JavascriptExecutor)driver);

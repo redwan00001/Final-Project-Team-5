@@ -5,9 +5,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import javax.swing.*;
+
 public class WalmartHelp extends CommonAPI {
 
-    @FindBy(xpath = "/html/body/div[3]/div/div[3]/div[1]/div/div[1]/button/i")
+    @FindBy(xpath = "//div[@aria-label='Human Challenge requires verification. Please press and hold the button until verified']")
     WebElement cancelPopUp;
 
     @FindBy(xpath = "//a[normalize-space()='Help']")
@@ -243,8 +245,8 @@ public class WalmartHelp extends CommonAPI {
 
 
 
-    public void clickOnCancelPopUp(){
-        clickOn(getCancelPopUp());
+    public void pressAndHoldCancelPopUp(WebDriver driver){
+        pressAndHold(driver, getCancelPopUp());
     }
     public void clickOnHelp() {
         clickOn(getHelp());
