@@ -7,11 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Walmart" />
+        <module name="Macys" />
         <module name="HBO" />
         <module name="RestApi" />
-        <module name="Facebook" />
+        <module name="BestBuy" />
         <module name="Generic" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Facebook" target="16" />
+    </bytecodeTargetLevel>
   </component>
 </project>
