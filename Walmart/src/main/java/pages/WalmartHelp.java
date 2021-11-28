@@ -9,7 +9,7 @@ import javax.swing.*;
 
 public class WalmartHelp extends CommonAPI {
 
-    @FindBy(xpath = "//div[@aria-label='Human Challenge requires verification. Please press and hold the button until verified']")
+    @FindBy(xpath = "//*[text()='Press & Hold']")
     WebElement cancelPopUp;
 
     @FindBy(xpath = "//a[normalize-space()='Help']")
@@ -246,6 +246,7 @@ public class WalmartHelp extends CommonAPI {
 
 
     public void pressAndHoldCancelPopUp(WebDriver driver){
+        driver.switchTo().frame(0);
         pressAndHold(driver, getCancelPopUp());
     }
     public void clickOnHelp() {

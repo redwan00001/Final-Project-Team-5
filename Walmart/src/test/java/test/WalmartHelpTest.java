@@ -10,9 +10,9 @@ public class WalmartHelpTest extends CommonAPI {
     @Test
     public void TrackOrder1() throws InterruptedException {
         WalmartHelp walmartHelp = PageFactory.initElements(driver, WalmartHelp.class);
-        walmartHelp.pressAndHoldCancelPopUp(driver);
-        walmartHelp.clickOnHelp();
 
+        walmartHelp.clickOnHelp();
+        walmartHelp.pressAndHoldCancelPopUp(driver);
         waitFor(1);
         walmartHelp.clickOnTrackOrder();
         waitFor(1);
